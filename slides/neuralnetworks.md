@@ -40,7 +40,8 @@ Turma
 
 ---
 
-combinação, produto escalar, matrizes, linear, não-linear, entrada, saída
+<!-- combinação, produto escalar, matrizes, linear, não-linear, entrada, saída -->
+![bg fit](img/s1_cloud_perceptron.png)
 
 ---
 
@@ -76,7 +77,9 @@ combinação, produto escalar, matrizes, linear, não-linear, entrada, saída
 
 ---
 
-composição de funções, multiplicação de matrizes, transformações lineares
+![bg](img/s1_cloud_mlp.png)
+
+<!-- composição de funções, multiplicação de matrizes, transformações lineares -->
 
 ---
 
