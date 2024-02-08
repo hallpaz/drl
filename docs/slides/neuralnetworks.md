@@ -7,10 +7,10 @@ paginate: true
 
 <style>
     section {
-        font-family: "Manrope"
+        font-family: "Manrope", Arial;
     }
     h1, h2 {
-        font-family: "Space Mono"
+        font-family: "Space Mono", monospace;
     }
 </style>
 
@@ -25,7 +25,7 @@ paginate: true
 
 ##### 8 de fevereiro de 2024
 
-![bg 160%](styles/bg_inteli_02.png)
+![bg ](#2D253F)
 
 ---
 
@@ -97,8 +97,11 @@ Programação Dinâmica
 
 ---
 
-# Função de ativação
+<!-- _class: invert -->
+<!-- _backgroundColor: "#ff4645" -->
+<!-- _paginate: false -->
 
+# Função de ativação
 ## Por quê?
 
 ---
@@ -111,6 +114,15 @@ Programação Dinâmica
 ---
 
 # O que não pode ser uma função de ativação?
+
+---
+
+<!-- _class: invert -->
+<!-- _backgroundColor: "#ff4645" -->
+<!-- _paginate: false -->
+
+# Perceptron Multicamada
+## (Multilayer Perceptron)
 
 ---
 
@@ -144,6 +156,10 @@ b) Sugira uma modificação ou alternativa à função ReLU para mitigar esse pr
 c) Descreva como essa modificação ou alternativa pode beneficiar o treinamento do modelo, especialmente em um contexto de detecção de anomalias em imagens médicas.
 
 ---
+
+<!-- _class: invert -->
+<!-- _backgroundColor: #2d253f-->
+<!-- _paginate: false -->
 
 # Bibliografia complementar
 
