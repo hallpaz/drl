@@ -3,6 +3,7 @@ marp: true
 paginate: true
 # space mono para titulos
 # manrope para corpo 
+# 20240208
 ---
 
 <style>
@@ -52,11 +53,15 @@ Programação Dinâmica
 
 ---
 
-# Mapeamento da Turma
+# Mapeamento de competências da Turma
 
 - Inglês
 - Python
 - Matemática
+
+#### https://forms.gle/xzbykAzUzAJvxBZX7
+
+![bg right:40% 80%](img/s1_poll_qrcode.jpg)
 
 ---
 
@@ -67,6 +72,10 @@ Programação Dinâmica
 
 <!-- _class: invert -->
 ---
+
+<!-- _class: invert -->
+<!-- _backgroundColor: #2D253F -->
+<!-- _paginate: false -->
 
 # O que é uma rede neural?
 
@@ -98,7 +107,7 @@ Programação Dinâmica
 ---
 
 <!-- _class: invert -->
-<!-- _backgroundColor: "#ff4645" -->
+<!-- _backgroundColor: "#2D253F" -->
 <!-- _paginate: false -->
 
 # Função de ativação
@@ -118,7 +127,7 @@ Programação Dinâmica
 ---
 
 <!-- _class: invert -->
-<!-- _backgroundColor: "#ff4645" -->
+<!-- _backgroundColor: "#2D253F" -->
 <!-- _paginate: false -->
 
 # Perceptron Multicamada
@@ -131,7 +140,9 @@ Programação Dinâmica
 
 ![bg left:56% fit](img/s1_mlp.png)
 
-<!-- _footer: John Salatas, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons -->
+<!-- _footer: John Salatas, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, <br/> via Wikimedia Commons -->
+
+<!-- _paginate: false -->
 
 ---
 
