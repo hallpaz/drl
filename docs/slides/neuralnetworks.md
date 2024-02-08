@@ -4,6 +4,16 @@ paginate: true
 # space mono para titulos
 # manrope para corpo 
 ---
+
+<style>
+    section {
+        font-family: "Manrope"
+    }
+    h1, h2 {
+        font-family: "Space Mono"
+    }
+</style>
+
 <!-- _class: invert -->
 <!-- _paginate: false -->
 
@@ -14,6 +24,8 @@ paginate: true
 ### Prof. Hallison Paz
 
 ##### 8 de fevereiro de 2024
+
+![bg 160%](styles/bg_inteli_02.png)
 
 ---
 
@@ -51,6 +63,9 @@ Programação Dinâmica
 
 # Por que estudar o que a gente vai estudar?
 
+![bg](styles/bg_inteli_01.png)
+
+<!-- _class: invert -->
 ---
 
 # O que é uma rede neural?
