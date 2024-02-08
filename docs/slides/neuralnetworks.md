@@ -4,21 +4,52 @@ paginate: true
 # space mono para titulos
 # manrope para corpo 
 ---
-
-Hallison Paz
-
----
-
-Turma
-
-- inglês
-- matemática
-
----
+<!-- _class: invert -->
+<!-- _paginate: false -->
 
 # Matemática para redes neurais (feedforward)
 
-## Por quê?
+### Aprendizado por reforço para aplicações em redes neurais
+
+### Prof. Hallison Paz
+
+##### 8 de fevereiro de 2024
+
+---
+
+![bg left](img/s1_hallison.jpg)
+
+# Sobre mim
+### Hallison Paz
+
+- Engenheiro de computação (Instituto Militar de Engenharia)
+- Mestre e doutorando em Matemática (IMPA)
+- Criador do canal (Youtube)
+Programação Dinâmica 
+- Trabalhei no Reality Labs Research (Meta)
+
+---
+<!-- _class: invert -->
+<!-- _paginate: false -->
+
+# "SOMOS A FACULDADE QUE FORMA OS LÍDERES DO FUTURO."
+
+![bg black opacity:.2 saturate](img/s1_inteli.jpg)
+
+<!-- _footer: Fonte: https://www.inteli.edu.br/quem-somos/ -->
+
+---
+
+# Mapeamento da Turma
+
+- Inglês
+- Python
+- Matemática
+
+---
+
+
+# Por que estudar o que a gente vai estudar?
 
 ---
 
@@ -30,7 +61,7 @@ Turma
 
 ---
 
-# Como isso ajuda a resolver problemas?
+# Como isso nos ajuda a resolver problemas?
 
 ---
 
