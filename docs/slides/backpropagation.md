@@ -38,11 +38,24 @@ paginate: true
 
 ---
 
-Parâmetros da rede...
+# Como você faria para um perceptron aproximar uma reta específica?
+
+---
+## Como se computa a saída de um MLP? 
+
+![bg right:60% 80%](img/s1_mlp.png)
 
 ---
 
-Forward propagation
+# Composição de funções
+
+<!-- _class: invert -->
+<!-- _backgroundColor: #2D253F -->
+<!-- _paginate: false -->
+
+---
+
+# Sabemos calcular a saída (resposta) de uma rede. E agora?
 
 ---
 
@@ -54,6 +67,13 @@ Forward propagation
 ---
 
 # Métricas
+
+##### Uma métrica ou função de distância é qualquer função que atende às 3 propriedades a seguir:
+
+- Não negativa
+- Simétrica
+- Respeita desigualdade triangular
+
 
 ---
 
@@ -75,14 +95,16 @@ Método de Newton
 
 # Funções de várias variáveis
 <br/>
+
+#### Exemplo 1:
+
+$$f: \mathbb{R}^2 \rightarrow \mathbb{R}, f(x, y) = x^2 + xy - cos(y)$$
+
 <br/>
 
-$$f: \mathbb{R}^2 \rightarrow \mathbb{R}^3, f(x, y) = x^2 + xy - cos(y)$$
+#### Exemplo 2:
 
-<br/>
-<br/>
-
-$$g: [0, \pi] \times [0, 2\pi] \rightarrow \mathbb{R}, g(x) = (sen(x)cos(y), sen(x)sen(y), cos(x)) $$
+$$g: [0, \pi] \times [0, 2\pi] \rightarrow \mathbb{R}^3, g(x) = (sen(x)cos(y), sen(x)sen(y), cos(x)) $$
 
 ---
 
@@ -122,8 +144,7 @@ $$\theta_{j+1} = \theta_j - \gamma \nabla C(\theta_j)$$
 
 ---
 
-
-função de ativação (contínua)
+# Deu pra entender que a **função de ativação** tem um papel nesse processo?
 
 ---
 
