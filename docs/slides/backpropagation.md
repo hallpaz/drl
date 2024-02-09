@@ -34,11 +34,23 @@ paginate: true
 
 ![bg fit](img/s1_hornik_paper.png)
 
-<!-- https://doi.org/10.1016/0893-6080(89)90020-8 -->
+<!-- _footer: https://doi.org/10.1016/0893-6080(89)90020-8 -->
 
 ---
 
+<!-- _class: invert -->
+<!-- _paginate: false -->
+
+<style scoped>
+h1 {
+  /* text-align: center; */
+  color: #1e1e1f
+}
+</style>
+
 # Como você faria para um perceptron aproximar uma reta específica?
+
+![bg 210%](styles/bg_inteli_01.png)
 
 ---
 ## Como se computa a saída de um MLP? 
@@ -74,22 +86,47 @@ paginate: true
 - Simétrica
 - Respeita desigualdade triangular
 
-
 ---
 
-# Regra da Cadeia
-
-Se $h(x) = f(g(x))$, então:
+# Exemplos de Métricas
 
 <br/>
 
-$$\frac{dh}{dx} = \frac{df}{dg} \cdot \frac{dg}{dx}$$
+Distância na norma $L_p$:
 
-<!-- ![bg](styles/bg_inteli_03.png) -->
+$$d_{p}(x,y)=(\sum _{i=1}^{n}|x_{i}-y_{i}|^{p})^{\frac{1}{p}}$$
+
+![bg right:56% 80%](img/s1_lpnorms.svg)
 
 ---
 
-Método de Newton
+<!-- _paginate: false -->
+
+<style scoped>
+h1 {
+  /* text-align: center; */
+  color: #1e1e1f
+}
+</style>
+
+# Temos uma medida do erro. E agora?
+![bg 210%](styles/bg_inteli_01.png)
+
+---
+
+# Queremos minimizar o erro!
+
+---
+
+# Gradiente Descendente
+
+<br/><br/>
+
+$$\theta_{j+1} = \theta_j - \gamma \nabla C(\theta_j)$$
+
+![bg right:50% 85%](img/s1_gradient_descent.gif)
+
+<!-- _footer: Para experimentar: https://www.geogebra.org/m/sWsGNs86 -->
 
 ---
 
@@ -113,34 +150,28 @@ $$g: [0, \pi] \times [0, 2\pi] \rightarrow \mathbb{R}^3, g(x) = (sen(x)cos(y), s
 
 <!-- _paginate: false -->
 
-# $\partial$ Derivadas Parciais
+# $\partial$ Derivadas Parciais 
+# e o vetor $\nabla$ Gradiente 
 
 ---
 
-<!-- _class: invert -->
-<!-- _backgroundColor: #2D253F -->
-<!-- _paginate: false -->
+# Regra da Cadeia
 
-# $\nabla$ Gradiente 
+Se $h(x) = f(g(x))$, então:
 
+<br/>
 
+$$\frac{dh}{dx} = \frac{df}{dg} \cdot \frac{dg}{dx}$$
 
----
+<!-- ![bg](styles/bg_inteli_03.png) -->
 
-# Gradiente Descendente
-
-<br/><br/>
-
-$$\theta_{j+1} = \theta_j - \gamma \nabla C(\theta_j)$$
-
-![bg right:40% fit](img/s1_gradient_descent.gif)
-
-<!-- _footer: Para experimentar: https://www.geogebra.org/m/sWsGNs86 -->
 
 ---
 # Backpropagation
 
 ![bg left:54% fit](img/s1_backprop_paper.png)
+
+<!-- _footer: https://www.nature.com/articles/323533a0 -->
 
 ---
 
@@ -148,5 +179,11 @@ $$\theta_{j+1} = \theta_j - \gamma \nabla C(\theta_j)$$
 
 ---
 
+<!-- _class: invert -->
+<!-- _backgroundColor: #2d253f-->
+<!-- _paginate: false -->
 
+# Bibliografia complementar
 
+- Goodfellow, Ian, Yoshua Bengio, and Aaron Courville. [Deep Learning](https://www.deeplearningbook.org/). Cambridge, MA: MIT Press, 2016. Chicago (author-date), 17th ed.
+    - [Capítulo 4](https://www.deeplearningbook.org/contents/numerical.html) seção 4.3 (Gradient-Based Optimization)
