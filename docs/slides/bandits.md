@@ -94,6 +94,8 @@ paginate: true
 
 # Algoritmo
 
+
+
 ---
 
 # Como fazer um algoritmo greedy investigar mais?
@@ -108,7 +110,7 @@ paginate: true
 
 ---
 
-# E se asdistribuições não forem estacionárias?
+# E se as distribuições não forem estacionárias?
 
 ---
 
@@ -119,6 +121,9 @@ Cálculo do valor de uma ação
 # Como se relaciona com aprendizado por reforço?
 
 ---
+
+# Contextual Armed Bandits
+## <<< Próxima semana >>>
 
 Como extender para o problema associativo?
 
@@ -135,6 +140,21 @@ in the next chapter and consider its ramifications throughout the rest of the bo
 
 ---
 
+# Troca de contexto
+
+---
+
+# Cartpole
+
+<video width="480" height="320" controls>
+  <source src="video/cartpole.mp4" type="video/mp4">
+</video>
+
+<!-- _footer: Cartpole no [OpenAI Gym](https://www.gymlibrary.dev/environments/classic_control/cart_pole/) -->
+
+
+---
+
 <!-- _class: invert -->
 <!-- _backgroundColor: #2d253f-->
 <!-- _paginate: false -->
@@ -142,3 +162,7 @@ in the next chapter and consider its ramifications throughout the rest of the bo
 # Bibliografia complementar
 
 - Sutton, R.S. and Barto, A.G. (2018) [Reinforcement Learning: An Introduction](http://incompleteideas.net/book/the-book-2nd.html). 2nd Edition, A Bradford Book, Cambridge. **Capítulo 2**.
+
+##### Para ir mais além
+
+- A. G. Barto, R. S. Sutton and C. W. Anderson, ["Neuronlike adaptive elements that can solve difficult learning control problems,"](http://incompleteideas.net/papers/barto-sutton-anderson-83.pdf) in IEEE Transactions on Systems, Man, and Cybernetics, vol. SMC-13, no. 5, pp. 834-846, Sept.-Oct. 1983, doi: 10.1109/TSMC.1983.6313077.
