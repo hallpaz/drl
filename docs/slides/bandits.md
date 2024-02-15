@@ -37,10 +37,6 @@ paginate: true
 
 # Proxy para...
 
----
-
-
-"... afiando o meu machado"
 
 ---
 
@@ -114,7 +110,7 @@ paginate: true
 
 ---
 
-Cálculo do valor de uma ação
+# Cálculo do valor de uma ação
 
 ---
 
@@ -124,19 +120,6 @@ Cálculo do valor de uma ação
 
 # Contextual Armed Bandits
 ## <<< Próxima semana >>>
-
-Como extender para o problema associativo?
-
-This is an example of an associative search task, so called because it involves both
-trial-and-error learning to search for the best actions, and association of these actions
-with the situations in which they are best. Associative search tasks are often now called
-contextual bandits in the literature. Associative search tasks are intermediate between
-the k-armed bandit problem and the full reinforcement learning problem. They are like
-the full reinforcement learning problem in that they involve learning a policy, but they
-are also like our version of the k-armed bandit problem in that each action a↵ects only
-the immediate reward. If actions are allowed to a↵ect the next situation as well as the
-reward, then we have the full reinforcement learning problem. We present this problem
-in the next chapter and consider its ramifications throughout the rest of the book.
 
 ---
 
