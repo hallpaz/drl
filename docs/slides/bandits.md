@@ -77,6 +77,11 @@ h1 {
 
 # Lei dos grandes números
 
+![](img/s2_lei_grandes_numeros.png)
+
+<!-- _footer: ROSS, S. [Probabilidade um curso moderno com aplicações](
+https://integrada.minhabiblioteca.com.br/books/9788577806881). 8. ed. Porto Alegre: Bookman, 2010. Capítulo 8. -->
+
 ---
 
 # Faz sentido só explorar?
@@ -93,28 +98,40 @@ h1 {
 
 ---
 
-<style scoped>
-h1 {
-  /* text-align: center; */
-  color: #1e1e1f
-}
-</style>
+<!-- _class: invert -->
+<!-- _backgroundColor: #2D253F -->
 
 
 # Como solucionar razoavelmente o problema de multi-armed bandits?
 
-![bg 210%](styles/bg_inteli_01.png)
+<!-- _paginate: false -->
+
+---
+
+# Métodos que avaliam ações
+### (action-value methods)
+
+- Valor de uma ação: $q_*(a) = \mathbb{E}[R_t | A_t=a]$
+
+- Estimativa do valor: $Q_t(a) = ???$
+
+## Que ação tomar?
 
 ---
 
 # Greedy vs $\epsilon$-greedy
 
-## valor-ação
+## Ação escolhida com base no valor
+
+- $A_t = \text{argmax}_aQ_t(a)$, $1 - \epsilon$ "parte do tempo"
+- Aleatória $\epsilon$ parte do tempo
 
 ---
 
 # Exemplo: 
-# 10-armed bandits
+# 10-armed testbed
+
+$$f(x)={\frac {1}{\sigma {\sqrt {2\pi }}}}\;\;\mathrm {e} ^{-{\frac {1}{2}}\left({\frac {x-\mu }{\sigma }}\right)^{2}} $$
 
 ![bg right:69% 95%](img/s2_reward_distribution.png)
 
@@ -144,14 +161,9 @@ h1 {
 
 ---
 
-<style scoped>
-h1 {
-  /* text-align: center; */
-  color: #1e1e1f
-}
-</style>
-
-![bg 210%](styles/bg_inteli_01.png)
+<!-- _class: invert -->
+<!-- _backgroundColor: #2D253F -->
+<!-- _paginate: false -->
 
 # Como fazer um algoritmo greedy investigar mais?
 
@@ -171,7 +183,22 @@ h1 {
 
 # Cálculo do valor de uma ação
 
+<br/>
+
+$$Q_{n+1} = Q_n + \alpha[R_n - Q_n]$$
+
+<br/>
+
+Quando $\alpha_n(a) = \frac{1}{n}$ para todo $n$, temos o caso anterior (média simples).
+
+<br/>
+
+##### Qualquer sequência $\{\alpha_n(a)\}$ pode ser utilizada para solucionar o problema?
+
 ---
+
+<!-- _backgroundColor: #2D253F -->
+<!-- _class: invert -->
 
 # Como se relaciona com aprendizado por reforço?
 
@@ -189,7 +216,7 @@ h1 {
 }
 </style>
 
-# TROCA DE CONTEXTO
+# TROCA DE CONTEXTO 🥁
 
 ![bg ](styles/bg_inteli_01.png)
 
