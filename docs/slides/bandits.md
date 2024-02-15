@@ -79,8 +79,7 @@ h1 {
 
 ![](img/s2_lei_grandes_numeros.png)
 
-<!-- _footer: ROSS, S. [Probabilidade um curso moderno com aplicações](
-https://integrada.minhabiblioteca.com.br/books/9788577806881). 8. ed. Porto Alegre: Bookman, 2010. Capítulo 8. -->
+<!-- _footer: ROSS, S. [Probabilidade um curso moderno com aplicações](https://integrada.minhabiblioteca.com.br/books/9788577806881). 8. ed. Porto Alegre: Bookman, 2010. Capítulo 8. -->
 
 ---
 
