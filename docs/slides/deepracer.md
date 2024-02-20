@@ -217,3 +217,8 @@ def reward_function(params):
 # Bibliografia complementar
 
 - Sutton, R.S. and Barto, A.G. (2018) [Reinforcement Learning: An Introduction](http://incompleteideas.net/book/the-book-2nd.html). 2nd Edition, A Bradford Book, Cambridge. **Capítulo 3** até a seção 3.3.
+
+#### Para ir mais além
+
+- J. Schulman, F. Wolski, P. Dhariwal, A. Radford, and O. Klimov, [Proximal policy optimization algorithms](https://arxiv.org/abs/1707.06347), arXiv.org, arXiv:1707.06347 [cs.LG].
+    - Post de [apresentação de resultados](https://openai.com/research/openai-baselines-ppo).
