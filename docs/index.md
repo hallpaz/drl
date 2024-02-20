@@ -2,9 +2,9 @@
 
 #### SEMANA 3
 
-- [Deep Racer](slides/20240219.html)
-- [Introdução à tomada de decisões sequenciais](slides/20240220.html)
-- [Processos de Decisão de Markov](slides/20240222.html)
+- [Deep Racer](slides/20240220.html)
+- [Introdução à tomada de decisões sequenciais](slides/20240221.html)
+- [Processos de Decisão de Markov](slides/20240223.html)
 
 
 #### SEMANA 2

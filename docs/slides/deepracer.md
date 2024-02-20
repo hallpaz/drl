@@ -24,7 +24,7 @@ paginate: true
 
 ### Prof. Hallison Paz
 
-##### 19 de fevereiro de 2024
+##### 20 de fevereiro de 2024
 
 ![bg](styles/bg_inteli_04.jpeg)
 
