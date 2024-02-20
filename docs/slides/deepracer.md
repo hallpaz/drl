@@ -29,6 +29,11 @@ paginate: true
 ![bg](styles/bg_inteli_04.jpeg)
 
 ---
+<!-- _class: invert -->
+<!-- _paginate: false -->
+# Dúvidas e Dívidas
+
+---
 
 <!-- _class: invert -->
 <!-- _paginate: false -->
