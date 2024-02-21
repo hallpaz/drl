@@ -68,6 +68,8 @@ $P(B\mid A)={\frac {P(B \cap A)}{P(A)}}$
 
 # Eventos Independentes
 
+∀x ∈ x, y ∈ y, p(x = x, y = y) = p(x = x)p(y = y).
+
 
 ---
 <!-- _class: invert -->
@@ -81,7 +83,7 @@ $P(B\mid A)={\frac {P(B \cap A)}{P(A)}}$
 
 ### Valor esperado
 
-$$E[X] = \sum xp(x)$$
+$$E[X] = \sum\limits_x xp(x)$$
 
 <br/>
 
