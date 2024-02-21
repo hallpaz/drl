@@ -62,13 +62,15 @@ h1 {
 
 # Probabilidade Condicional
 
-$P(B\mid A)={\frac {P(B \cap A)}{P(A)}}$
+- eventos: $P(B\mid A)={\frac {P(B \cap A)}{P(A)}}$
+
+- variáveis: $P(x\mid y)={\frac {P(X = x, Y=y)}{P(y)}}$ 
 
 ---
 
 # Eventos Independentes
 
-∀x ∈ x, y ∈ y, p(x = x, y = y) = p(x = x)p(y = y).
+∀$x \in \mathcal{X}$, $y \in \mathcal{Y}$, $p(x = x, y = y) = p(x = x)p(y = y)$.
 
 
 ---
