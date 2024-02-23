@@ -129,13 +129,6 @@ h1 {
 
 $$G_t = R_{t+1} + \gamma R_{t+2} + \gamma^2R_{t+3} + ... = \sum_{k=0}^\infty \gamma^kR_{t+k+1}$$
 
----
-
-<!-- _backgroundColor: #F2F2F2 -->
-<!-- _paginate: false -->
-
-![bg 80%](img/s3_robot_state.png)
-
 
 ---
 
