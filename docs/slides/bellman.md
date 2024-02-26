@@ -46,6 +46,11 @@ h1 {
 </style> -->
 
 ---
+<!-- _paginate: false -->
+#### Autoestudos na AdaLove
+![](img/s4_bellman_autoestudo.png)
+
+---
 
 <!-- _class: invert -->
 <!-- _backgroundColor: #2d253f-->
@@ -75,6 +80,26 @@ $v_\pi(s) = \mathbb{E}_\pi[G_t | S_t = s] = \mathbb{E}_\pi[\sum\limits_{k=0}^\in
 
 ---
 
+## Derivando a equação de Bellman
+
+
+
+<!-- _footer: Fonte: https://stats.stackexchange.com/questions/243384/deriving-bellmans-equation-in-reinforcement-learning -->
+
+---
+
+## A equação de Bellman
+
+<br/>
+
+$v_\pi(s) = \mathbb{E}_\pi[G_t | S_t=s] = \sum\limits_{a \in A}\pi(a|s)\sum\limits_{r∈R}\sum\limits_{s′\in S}p(s′,r | a, s)[r + \gamma v\pi(s′)]$
+
+---
+
+![](img/s4_gridworld_equip.png)
+
+---
+
 ## Função de ação-valor sob a política $\pi$
 
 <br/>
@@ -85,11 +110,23 @@ $q_\pi(s, a) = \mathbb{E}_\pi[G_t | S_t=s, A_t = a] = \mathbb{E}_\pi[\sum\limits
 <!-- _class: invert -->
 <!-- _backgroundColor: #2d253f-->
 <!-- _paginate: false -->
-# Políticas e funções de valor
+# Políticas ótimas
 
 ---
 
-E quando a gente não sabe calcular?
+![](img/s4_optimal_statevalue.png)
+
+---
+
+![](img/s4_optimal_actionvalue.png)
+
+---
+
+![](img/s4_gridworld_optimal.png)
+
+---
+
+# E quando a gente não sabe calcular?
 
 ---
 <!-- _class: invert -->

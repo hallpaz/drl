@@ -1,5 +1,12 @@
 # Aprendizado por Reforço para Aplicações em Redes Neurais
 
+#### SEMANA 4
+
+- [Funções de Valor e Equação de Bellman](slides/20240227.html)
+
+- [Método de Monte Carlo](slides/20240229.html)
+
+
 #### SEMANA 3
 
 - [Deep Racer](slides/20240220.html)
