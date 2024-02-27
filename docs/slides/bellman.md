@@ -84,11 +84,25 @@ Uma política é um mapeamento (função) que diz qual a probabilidade de escolh
 $$\pi(a | s) = P[A_t=a | S_t=s]$$
 
 ---
+
+# Exercício: especificação de uma política
+
+![bg left:60%](img/s4_autoestudo_grid.png)
+
+---
 ## Função de valor de um estado $s$ sob a política $\pi$
 
 <br/>
 
 $v_\pi(s) = \mathbb{E}_\pi[G_t | S_t = s] = \mathbb{E}_\pi[\sum\limits_{k=0}^\infty \gamma^kR_{t+k+1} | S_t = s]$, para todo $s \in S$
+
+---
+
+## Função de valor de uma ação sob a política $\pi$
+
+<br/>
+
+$q_\pi(s, a) = \mathbb{E}_\pi[G_t | S_t=s, A_t = a] = \mathbb{E}_\pi[\sum\limits_{k=0}^\infty \gamma^kR_{t+k+1} | S_t=s, A_t=a]$
 
 ---
 
@@ -111,7 +125,7 @@ $v_\pi(s) = \mathbb{E}_\pi[G_t | S_t=s] = \sum\limits_{a \in A}\pi(a|s)\sum\limi
 <!-- _class: invert -->
 <!-- _backgroundColor: #2d253f-->
 <!-- _paginate: false -->
-## Entendendo a ~~sinistra💀~~ equação de Bellman
+## Entendendo a ~~cabulosa💀~~ equação de Bellman
 
 
 ---
@@ -158,19 +172,22 @@ $$v_\pi(s) = \sum\limits_{a \in \mathcal{A}}\pi(a | s)(r(s, a, s') + \gamma\sum\
 
 <!-- _foote: EXEMPLO: Sutton, 2018 -->
 
----
-
-## Função de ação-valor sob a política $\pi$
-
-<br/>
-
-$q_\pi(s, a) = \mathbb{E}_\pi[G_t | S_t=s, A_t = a] = \mathbb{E}_\pi[\sum\limits_{k=0}^\infty \gamma^kR_{t+k+1} | S_t=s, A_t=a]$
 
 ---
 <!-- _class: invert -->
 <!-- _backgroundColor: #2d253f-->
 <!-- _paginate: false -->
 # Políticas ótimas
+
+---
+
+# Políticas ótimas
+
+<br/>
+
+- $\pi \gt \pi' \leftrightarrow v_\pi(s) \ge v_{\pi'}(s)$  para todo $s \in \mathcal{S}$
+
+- A cada política ótima há uma função de valor de estado $v_*(s)$ e uma função de valor de ação ótimos $q_*(s, a)$.
 
 ---
 
