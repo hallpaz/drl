@@ -69,6 +69,7 @@ h3 {
 #### Autoestudos na AdaLove
 ![](img/s4_bellman_autoestudo.png)
 
+<!-- _footer: PRAZO DA PONDERADA: -->
 ---
 
 <!-- _class: invert -->
@@ -186,10 +187,10 @@ $$v_\pi(s) = \sum\limits_{a \in \mathcal{A}}\pi(a | s)(r(s, a, s') + \gamma\sum\
 ![](img/s4_gridworld_exercise.png)
 
 ---
-# Resposta
-<!-- ![bg fit](img/s4_gridworld_equip.png) -->
+<!-- # Resposta -->
+![bg fit](img/s4_gridworld_equip.png)
 
-<!-- _foote: EXEMPLO: Sutton, 2018 -->
+<!-- _footer: EXEMPLO: Sutton, 2018 -->
 
 
 ---
