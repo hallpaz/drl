@@ -145,9 +145,18 @@ $$v_\pi(s) = \sum\limits_{a \in \mathcal{A}}\pi(a | s)(r(s, a, s') + \gamma\sum\
 
 ---
 
-![bg fit](img/s4_gridworld_equip.png)
+## Exercício: Qual o valor de cada estado colorido?
 
-<!-- _footer: EXEMPLO: Sutton, 2018 -->
+- Considere: $\gamma=0.9$; $r_A=10$; $r_B=5$; $r_{fora}=-1$; $r_{outros}=0$.
+- $\pi(a | s) = \frac{1}{4}, \forall a \in \mathcal{A}$
+
+![](img/s4_gridworld_exercise.png)
+
+---
+# Resposta
+<!-- ![bg fit](img/s4_gridworld_equip.png) -->
+
+<!-- _foote: EXEMPLO: Sutton, 2018 -->
 
 ---
 
@@ -188,7 +197,13 @@ $$q_*(s, a) = r(s, a, s') + \gamma\sum\limits_{s' \in \mathcal{S}}p(s' | a, s)\m
 
 <!-- _footer: Sutton, 2018 -->
 
+---
 
+## Exercício: calcule o valor ótimo no grid do autoestudo
+
+![bg right:60% 90%](img/s4_autoestudo_grid.png)
+
+<!-- _paginate: false -->
 ---
 <style scoped>
 h1 {
@@ -211,3 +226,5 @@ h1 {
 - Sutton, R.S. and Barto, A.G. (2018) [Reinforcement Learning: An Introduction](http://incompleteideas.net/book/the-book-2nd.html). 2nd Edition, A Bradford Book, Cambridge. **Capítulo 3** seções 3.4 a 3.6.
 
 - Aleksandar Haber. [Clear Explanation of the Value Function and Its Bellman Equation](https://aleksandarhaber.com/deconstructing-the-meaning-of-the-value-function-and-its-bellman-equation-reinforcement-learning-tutorial/) – Reinforcement Learning Tutorial.
+
+- Luc Gendrot. Not Another RL Tutorial! [Part 2: Chains, Rewards, and Decision Processes, Oh My!](https://medium.com/@lgendrot/teaching-myself-rl-eef155ef5e4a)
