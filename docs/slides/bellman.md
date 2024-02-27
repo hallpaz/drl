@@ -72,6 +72,18 @@ $$G_t = R_{t+1} + \gamma R_{t+2} + \gamma^2R_{t+3} + ... = \sum_{k=0}^\infty \ga
 ![](img/s4_absorbing_state.png)
 
 ---
+
+## Política como distribuição de probabilidade
+
+<br/>
+
+Uma política é um mapeamento (função) que diz qual a probabilidade de escolher a ação $A_t=a$ no estado $S_t=s$.
+
+<br/>
+
+$$\pi(a | s) = P[A_t=a | S_t=s]$$
+
+---
 ## Função de valor de um estado $s$ sob a política $\pi$
 
 <br/>
@@ -92,11 +104,50 @@ $v_\pi(s) = \mathbb{E}_\pi[G_t | S_t = s] = \mathbb{E}_\pi[\sum\limits_{k=0}^\in
 
 <br/>
 
-$v_\pi(s) = \mathbb{E}_\pi[G_t | S_t=s] = \sum\limits_{a \in A}\pi(a|s)\sum\limits_{r∈R}\sum\limits_{s′\in S}p(s′,r | a, s)[r + \gamma v\pi(s′)]$
+$v_\pi(s) = \mathbb{E}_\pi[G_t | S_t=s] = \sum\limits_{a \in A}\pi(a|s)\sum\limits_{s′\in \mathcal{S}}\sum\limits_{r \in \mathcal{R}}p(s′,r | a, s)[r + \gamma v\pi(s′)]$
 
 ---
 
-![](img/s4_gridworld_equip.png)
+<!-- _class: invert -->
+<!-- _backgroundColor: #2d253f-->
+<!-- _paginate: false -->
+## Entendendo a ~~sinistra💀~~ equação de Bellman
+
+
+---
+# "Backup Diagram"
+
+#### Foco no estado
+
+<br/>
+
+* $v_\pi(s) = \sum\limits_{a \in \mathcal{A}}\pi(a | s)q_\pi(s, a)$
+
+![bg right 90% fit](img/s4_backup_state.jpg)
+
+---
+
+# "Backup Diagram"
+
+#### Foco na ação
+
+![h:300](img/s4_backup_action.jpg)
+
+* $q_\pi(s, a) = r(s, a, s') + \sum\limits_{s' \in \mathcal{S}}p(s' | s, a) v_\pi(s')$
+
+---
+
+# Tudo junto...
+
+![h:360](img/s4_backup_full.jpg)
+
+$$v_\pi(s) = \sum\limits_{a \in \mathcal{A}}\pi(a | s)(r(s, a, s') + \gamma\sum\limits_{s' \in \mathcal{S}}p(s' | a, s)v_\pi(s'))$$
+
+---
+
+![bg fit](img/s4_gridworld_equip.png)
+
+<!-- _footer: EXEMPLO: Sutton, 2018 -->
 
 ---
 
@@ -116,17 +167,39 @@ $q_\pi(s, a) = \mathbb{E}_\pi[G_t | S_t=s, A_t = a] = \mathbb{E}_\pi[\sum\limits
 
 ![](img/s4_optimal_statevalue.png)
 
+Se a recompensa for determinística, tem-se:
+$$v_*(s) = \max\limits_a r(s, a, s') + \gamma\sum\limits_{s' \in \mathcal{S}}p(s' | a, s)v_*(s')$$
+
+
+<!-- _footer: Sutton, 2018 -->
+
 ---
 
 ![](img/s4_optimal_actionvalue.png)
 
+No caso de recompensa determinística:
+$$q_*(s, a) = r(s, a, s') + \gamma\sum\limits_{s' \in \mathcal{S}}p(s' | a, s)\max\limits_aq_*(s', a')$$
+
+<!-- _footer: Sutton, 2018 -->
+
 ---
 
-![](img/s4_gridworld_optimal.png)
+![bg fit](img/s4_gridworld_optimal.png)
+
+<!-- _footer: Sutton, 2018 -->
+
 
 ---
+<style scoped>
+h1 {
+  /* text-align: center; */
+  color: #ffffff
+}
+</style>
 
-# E quando a gente não sabe calcular?
+![bg](styles/bg_inteli_01.png)
+
+# E quando não dá pra calcular o valor diretamente?
 
 ---
 <!-- _class: invert -->
@@ -137,4 +210,4 @@ $q_\pi(s, a) = \mathbb{E}_\pi[G_t | S_t=s, A_t = a] = \mathbb{E}_\pi[\sum\limits
 
 - Sutton, R.S. and Barto, A.G. (2018) [Reinforcement Learning: An Introduction](http://incompleteideas.net/book/the-book-2nd.html). 2nd Edition, A Bradford Book, Cambridge. **Capítulo 3** seções 3.4 a 3.6.
 
-- dsd https://aleksandarhaber.com/deconstructing-the-meaning-of-the-value-function-and-its-bellman-equation-reinforcement-learning-tutorial/ 
+- Aleksandar Haber. [Clear Explanation of the Value Function and Its Bellman Equation](https://aleksandarhaber.com/deconstructing-the-meaning-of-the-value-function-and-its-bellman-equation-reinforcement-learning-tutorial/) – Reinforcement Learning Tutorial.
