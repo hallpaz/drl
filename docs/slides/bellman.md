@@ -46,6 +46,25 @@ h1 {
 </style> -->
 
 ---
+
+<style scoped>
+h1 {
+  /* text-align: center; */
+  color: #ffffff
+}
+
+h3 {
+  /* text-align: center; */
+  color: #dddddd
+}
+</style>
+
+![bg](styles/bg_inteli_01.png)
+
+### Reflexão
+# Os juros do conhecimento
+
+---
 <!-- _paginate: false -->
 #### Autoestudos na AdaLove
 ![](img/s4_bellman_autoestudo.png)
