@@ -4,7 +4,7 @@
 
 - [Funções de Valor e Equação de Bellman](slides/20240227.html)
 
-- [Método de Monte Carlo](slides/20240229.html)
+- [Introdução aos Métodos de Monte Carlo](slides/20240229.html)
 
 
 #### SEMANA 3
