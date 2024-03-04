@@ -35,9 +35,11 @@ paginate: true
 <!-- _paginate: false -->
 # Dúvidas e Dívidas
 
-- Ponderada sobre deep racer: a ser entregue na próxima sprint
-- Correção da ponderada de função de ativação
-- Prova
+<br/>
+
+- Ponderada sobre deep racer: a ser entregue na próxima sprint.
+- Correção da ponderada de função de ativação.
+- 1ª Prova.
 
 <!-- ---
 
@@ -73,39 +75,122 @@ h3 {
 #### Autoestudos na AdaLove
 ![](img/s5_autoestudo_dp.png)
 
+----
+
+# Equação de Bellman
+
+<br/>
+
+$$v_\pi(s) = \mathbb{E}_\pi[G_t | S_t=s] = \sum\limits_{a \in A}\pi(a|s)\sum\limits_{s′\in \mathcal{S}}\sum\limits_{r \in \mathcal{R}}p(s′,r | a, s)[r + \gamma v\pi(s′)]$$
+
+<br/> 
+
+$$v_\pi(s)  = \sum\limits_{a \in A}\pi(a|s)\sum\limits_{s′, r}p(s′,r | a, s)[r + \gamma v\pi(s′)]$$
+
+<br/>
+
+* Sistema de $|S|$ equações! 😱
+
+---
+
+# Iterative Policy Evaluation
+
+<br/>
+
+
+$$v_{k+1}(s) = \mathbb{E}_\pi[R_{t+1} + \gamma v_k(S_{t+1}) | S_t=s] = \sum\limits_{a \in A}\pi(a|s)\sum\limits_{s′, r}p(s′,r | a, s)[r + \gamma v_{k}(s′)]$$
+
+* expected updates
+
+---
+
+## Iterative Policy Evaluation
+
+![](img/s5_policiy_evaluation_algorithm.png)
+
 ---
 
 <!-- _class: invert -->
 <!-- _backgroundColor: #2d253f-->
 <!-- _paginate: false -->
 
-# Avaliação de Política
-
-
----
-
-# Avaliação de política
-
-- Algoritmo iterativo
-- Atualizações "esperadas" (de "expectativa", valor esperado)
-
----
-
 # Gridworld
 
 ---
+
+<!-- _class: invert -->
+<!-- _backgroundColor: #2d253f-->
+<!-- _paginate: false -->
 
 # Melhorando uma política
 
 ---
 
-# Iteração de Política
+# Iteração de Valor
 
-<algoritmo>
+##### Busca a política ótima por:
+
+$$v_{*}(s) = \max\limits_a q_{\pi_*}(s, a)$$
+$$v_{*}(s) = \max\limits_a\sum\limits_{s′, r}p(s′,r | a, s)[r + \gamma v_{*}(s′)]$$
+
+<br/>
+
+$$v_{k+1}(s) = \max\limits_a\sum\limits_{s′, r}p(s′,r | a, s)[r + \gamma v_{k}(s′)]$$
 
 ---
 
-## Iteração de valor
+## Iteração de Valor
+
+![](img/s5_value_iteration_algorithm.png)
+
+---
+
+# Teorema da melhoria de Política
+
+<br/>
+
+Sejam $\pi$ e $\pi'$ duas políticas tais que
+
+
+$$v_{\pi'}(s) \geq v_{\pi}(s) \text{ para todo } s \in S - \{s_c\}$$
+
+e
+
+$$q_{\pi'}(s_c) \ge v_{\pi}(s_c)$$
+
+
+então $\pi' \ge \pi$.
+
+<!-- _footer: Adaptado de ([Sutton](http://www.incompleteideas.net/book/RLbook2020.pdf), 2018) -->
+
+---
+
+# Melhorando uma Política
+
+<br/>
+
+Construa $\pi'$ de modo que:
+
+$$\pi' = \arg\max\limits_a q_{\pi}(s, a)$$
+
+<br/>
+
+* Pelo teorema da melhoria, $\pi'$ tem que ser pelo menos tão boa quanto $\pi$
+
+---
+
+# Iteração de Política
+
+![](img/s5_policy_iteration_scheme.png)
+
+<!-- _footer: Esquema de ([Sutton](http://www.incompleteideas.net/book/RLbook2020.pdf), 2018) -->
+
+---
+
+## Iteração de Política
+
+![bg right:68% 94%](img/s5_policy_iteration_algorithm.png)
+
 
 
 <!-- ---
