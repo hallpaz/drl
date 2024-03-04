@@ -1,5 +1,14 @@
 # Aprendizado por Reforço para Aplicações em Redes Neurais
 
+#### SEMANA 5
+
+- [Programação Dinâmica para Aprendizado por Reforço](slides/20240305.html)
+
+- [Fundamentos Matemáticos para Métodos de Diferença Temporal (TD): Q-Leanring e Sarsa (Parte 1)](slides/20240307.html)
+
+- [Q-Learning e Aprendizagem por Diferença Temporal](slides/20240308.html)
+
+
 #### SEMANA 4
 
 - [Funções de Valor e Equação de Bellman](slides/20240227.html)
