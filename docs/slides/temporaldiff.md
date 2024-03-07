@@ -263,11 +263,13 @@ you need to take trajections on the environment - aprender com experiência -->
 
 ---
 
-# Q-learning - off-policy
+# Q-learning
 
 <br/>
 
 $$Q^{\text{novo}}(s_k, a_k) =  Q^{\text{velho}}(s_k, a_k) + \alpha[R_{k+1} + \gamma\max\limits_a Q(s_{k+1}, a) - Q^{\text{velho}}(s_k, a_k)]$$
+
+* Algoritmo *off-policy*
 
 <!-- Q-learning pode aprender por imitação pq é off-policy
 
