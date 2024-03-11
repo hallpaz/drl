@@ -1,5 +1,12 @@
 # Aprendizado por Reforço para Aplicações em Redes Neurais
 
+
+#### SEMANA 6
+
+- [Fundamentos Matemáticos para Métodos de Diferença Temporal (TD): Q-Leanring e Sarsa (Parte 2)](slides/20240312.html)
+
+- [Aplicação dos Métodos de Monte Carlo](slides/20240214.html)
+
 #### SEMANA 5
 
 - [Programação Dinâmica para Aprendizado por Reforço](slides/20240305.html)
