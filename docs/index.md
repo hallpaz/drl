@@ -5,7 +5,7 @@
 
 - [Fundamentos Matemáticos para Métodos de Diferença Temporal (TD): Q-Leanring e Sarsa (Parte 2)](slides/20240312.html)
 
-- [Visão Geral de Deep Reinforcement Learning](slides/20240214.html)
+- [Visão Geral de Deep Reinforcement Learning](slides/20240314.html)
 
 #### SEMANA 5
 
