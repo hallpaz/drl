@@ -86,6 +86,38 @@ $$Q^{\text{novo}}(s_k, a_k) =  Q^{\text{velho}}(s_k, a_k) + \alpha[R_{k+1} + \ga
 
 ---
 
+# Policy Gradients
+
+<br/>
+
+$$J(\theta) = \mathbb{E}_\pi[v_\pi(s_0)]$$
+
+<br/>
+
+$$\theta_{t+1} = \theta_t + \alpha\nabla J(\theta)$$
+
+<br/>
+
+$$(...)$$
+
+---
+
+# Policy Gradients
+
+<br/>
+
+![](img/s6_reinforce_sutton.png)
+
+---
+
+
+
+![bg 68%](img/s6_reinforce_openai.png)
+
+<!-- _footer: Intro to Policy Optimization ([OpenAI](https://spinningup.openai.com/en/latest/spinningup/rl_intro3.html)) -->
+
+---
+
 <!-- _class: invert -->
 <!-- _backgroundColor: #2d253f-->
 <!-- _paginate: false -->
@@ -97,3 +129,5 @@ $$Q^{\text{novo}}(s_k, a_k) =  Q^{\text{velho}}(s_k, a_k) + \alpha[R_{k+1} + \ga
 - Andrej Karpathy. [Deep Reinforcement Learning: Pong from Pixels](https://karpathy.github.io/2016/05/31/rl/). Andrej Karpathy blog, 2016.
 
 - Sanyam Kapoor. [Police Gradients in a Nutshell](https://towardsdatascience.com/policy-gradients-in-a-nutshell-8b72f9743c5d). Towards Data Science, 2018.
+
+- [Intro to Policy Optimization](https://spinningup.openai.com/en/latest/spinningup/rl_intro3.html). OpenAI Spinning Up.
