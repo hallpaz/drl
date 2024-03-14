@@ -2,3 +2,5 @@ pool/*
 .DS_Store
 */.DS_Store
 pdfs/*
+venv/*
+save.p
