@@ -1,6 +1,10 @@
 # Aprendizado por Reforço para Aplicações em Redes Neurais
 
 
+#### SEMANA 7
+
+- [Prática com OpenAI Gymnasium](slides/20240319.html)
+
 #### SEMANA 6
 
 - [Fundamentos Matemáticos para Métodos de Diferença Temporal (TD): Q-Leanring e Sarsa (Parte 2)](slides/20240312.html)
