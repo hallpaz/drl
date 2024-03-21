@@ -3,7 +3,7 @@
 
 #### SEMANA 7
 
-- [Prática com OpenAI Gymnasium](slides/20240319.html)
+- [Modelagem de Ambiente na Prática com OpenAI Gymnasium](slides/20240319.html)
 
 - [Actor-Critic Methods](slides/20240320.html)
 

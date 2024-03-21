@@ -18,7 +18,7 @@ paginate: true
 <!-- _class: invert -->
 <!-- _paginate: false -->
 
-# OpenAI Gymnasyum
+# Modelagem de Ambiente com OpenAI Gymnasyum
 
 ### Aprendizado por reforço para aplicações em redes neurais
 
