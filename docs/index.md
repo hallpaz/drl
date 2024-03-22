@@ -7,6 +7,9 @@
 
 - [Actor-Critic Methods](slides/20240320.html)
 
+- [Proximal Policy Optimization](slides/20240322.html)
+
+
 #### SEMANA 6
 
 - [Fundamentos Matemáticos para Métodos de Diferença Temporal (TD): Q-Leanring e Sarsa (Parte 2)](slides/20240312.html)
