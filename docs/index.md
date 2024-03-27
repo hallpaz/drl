@@ -1,6 +1,10 @@
 # Aprendizado por Reforço para Aplicações em Redes Neurais
 
 
+#### SEMANA 8
+
+- [Otimização de Estratégias](slides/20240327.html)
+
 #### SEMANA 7
 
 - [Modelagem de Ambiente na Prática com OpenAI Gymnasium](slides/20240319.html)
