@@ -1,6 +1,10 @@
 # Aprendizado por Reforço para Aplicações em Redes Neurais
 
 
+#### SEMANA 9
+
+- [Deep Q Networks](slides/20240402.html)
+
 #### SEMANA 8
 
 - [Otimização de Estratégias](slides/20240327.html)
